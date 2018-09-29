@@ -3,6 +3,7 @@
 包含两个网络及训练好的模型：
 标准变分编码器中含卷积、反卷积层，实现编码解码。
 条件变分编码器中，考虑到输入数据维度多变，卷积层输入数据维度及参数比较固定，使用全连接层进行了替换。
+参考了keras官方例程https://github.com/keras-team/keras/blob/master/examples/variational_autoencoder_deconv.py
 ![标准变分编码器结构-基于Keras](https://www.z4a.net/images/2018/07/29/model.png)
 ![条件变分编码器结构-基于Keras](https://www.z4a.net/images/2018/07/29/CVAE-model.png)
 
